@@ -1,6 +1,5 @@
 var PROFILEPATH = "profile/"
 
-
 // Experience
 $.getJSON(PROFILEPATH + "experience.json", (data) => {
     data.forEach((position) => {
@@ -17,7 +16,6 @@ $.getJSON(PROFILEPATH + "experience.json", (data) => {
     })
 })
 
-
 // Education
 $.getJSON(PROFILEPATH + "education.json", (data) => {
     data.forEach((edu) => {
@@ -26,7 +24,7 @@ $.getJSON(PROFILEPATH + "education.json", (data) => {
         if (edu.image != null) {
             eduImg = `
                 <div class="project-image">
-                    <img src="images/education/${edu.image}" />
+                    <img src="images/education/${edu.image}"/>
                 </div>
             `
         } 
@@ -37,28 +35,29 @@ $.getJSON(PROFILEPATH + "education.json", (data) => {
                 <span class="education-date">${edu.date.start} - ${edu.date.end}</span>
                 <h4>${edu.course}</h4>
                 ${edu.body != undefined ? "<p>" + edu.body + "</p>" : ""}
-                ${edu.points.length != 0 ? "<ul><li>" + edu.points.join("</li><li>") + "</li></ul>" : ""}              
+                ${edu.points.length != 0 ? "<ul><li>" + edu.points.join("</li><li>") + "</li></ul>" : ""}
             </div>
         `
         $("#education").append(educationEntry)
     })
 })
 
-
 // Certifications
 $.getJSON(PROFILEPATH + "certs.json", (data) => {
+    // swap position of first and second entry, so the first entry will be in the center of the carousel
+    [data[0], data[1]] = [data[1], data[0]]
     // first entry need to have active class
     let firstCert = true
     data.forEach((cert) => {
         var certImg = ""
         if (cert.image != null) {
+            // make cert that has not been obtained yet blurred
             certImg = `
                 <div class="card-img-top">
-                    <img src="images/certs/${cert.image}" class="img-thumbnail">
+                    <img src="images/certs/${cert.image}" class="img-thumbnail ${cert.obtained != null ? "" : "blur-cert"}">
                 </div>
             `
         } 
-
 
         let certEntry = `
             <div class="carousel-item ${firstCert ? "active" : ""}">
@@ -108,7 +107,3 @@ $.getJSON(PROFILEPATH + "projects.json", (data) => {
         $("#projects .container").append(projectEntry)
     })
 })
-
-
-
-console.log("SDDDD")

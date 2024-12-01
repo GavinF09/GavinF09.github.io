@@ -1,11 +1,11 @@
 [    
     {
-    "name": "eJPT",
-    "abbr": "eJPT",
-    "provider": "INE Security",
-    "obtained": null,
-    "expiry": null,
-    "image": "coming-soon.png"
+        "name": "eLearnSecurity Junior Penetration Tester",
+        "abbr": "eJPT",
+        "provider": "eLearnSecurity",
+        "obtained": null,
+        "expiry": null,
+        "image": "ejpt.png"
     },
     {
         "name": "Microsoft Certified: Azure Fundamentals",
@@ -13,7 +13,7 @@
         "provider": "Microsoft",
         "obtained": "Nov 2024",
         "expiry": null,
-        "image": "azure.jpg"
+        "image": "azure.png"
     },
     {
         "name": "Qualified Information Security Professional",
@@ -27,7 +27,7 @@
         "name": "Organizational Systems Security Analyst",
         "abbr": "OSSA",
         "provider": "ThinkSECURE",
-        "obtained": "Sep 2023",
+        "obtained": "Oct 2023",
         "expiry": null,
         "image": "ossa.jpg"
     }
