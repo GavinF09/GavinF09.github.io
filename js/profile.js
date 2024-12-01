@@ -65,7 +65,7 @@ $.getJSON(PROFILEPATH + "certs.json", (data) => {
                     ${certImg}
                     <div class="card-body">
                         <h3 class="card-title">${cert.name}</h3>
-                        <p class="card-text">${cert.obtained != null ? "Obtained " + cert.obtained : "Coming Soon..."}</p>
+                        <p class="card-text">${cert.obtained != null ? "Obtained " + cert.obtained : "In Progress"}</p>
                     </div>
                 </div>
             </div>
