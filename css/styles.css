@@ -760,19 +760,11 @@ footer {
     border-bottom: 1px solid #dcd9d9;
     text-align: center;
 }
-.carousel-item .card-img-top img {
-    /* max-width: 33vh; */
-    max-height: 25vh;
-    height: auto;
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
-    border: none;
-}
-.carousel-item .card {
+
+/* .carousel-item .card {
     width: 33%;
     text-wrap: wrap;
-}
+} */
 #certCarousel span {
     filter: invert(100%);
 }
@@ -795,6 +787,14 @@ footer {
 
 /* medium and up screens */
 @media (min-width: 768px) {
+    .carousel-item .card-img-top img {
+        max-height: 25vh;
+        height: auto;
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        border: none;
+    }
     
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
