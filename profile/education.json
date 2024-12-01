@@ -1,0 +1,17 @@
+[
+    {
+        "school": "Singapore Polytechnic",
+        "course": "Diploma in Infocomm Security Management",
+        "date": {
+            "start": "Apr 2022", 
+            "end": "Mar 2025"
+        },
+        "body": null,
+        "points": [
+            "GPA: 3.87/4.0 (5 Sems)", 
+            "Awarded the Director's Honour Roll in year 1 and 2",
+            "Obtained certificate of Data and Analytics for completing related elective"
+        ],
+        "image": null
+    } 
+]

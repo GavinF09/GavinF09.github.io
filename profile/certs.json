@@ -1,0 +1,34 @@
+[    
+    {
+    "name": "eJPT",
+    "abbr": "eJPT",
+    "provider": "INE Security",
+    "obtained": null,
+    "expiry": null,
+    "image": "coming-soon.png"
+    },
+    {
+        "name": "Microsoft Certified: Azure Fundamentals",
+        "abbr": "AZ-900",
+        "provider": "Microsoft",
+        "obtained": "Nov 2024",
+        "expiry": null,
+        "image": "azure.jpg"
+    },
+    {
+        "name": "Qualified Information Security Professional",
+        "abbr": "QISP",
+        "provider": "AiSP",
+        "obtained": "Dec 2023",
+        "expiry": null,
+        "image": "qisp.webp"
+    },
+    {
+        "name": "Organizational Systems Security Analyst",
+        "abbr": "OSSA",
+        "provider": "ThinkSECURE",
+        "obtained": "Sep 2023",
+        "expiry": null,
+        "image": "ossa.jpg"
+    }
+]

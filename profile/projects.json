@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Automated Pentesting Tool",
+        "body": "Developed a custom Command and Control (C2) framework focused on privilege escalation and post-exploitation. Researched and implemented payload execution and post-exploitation techniques on the C2 agent using the Go language. Also implemented measures to evade the Elastic Stack's security features", 
+        "link": null,
+        "image": null
+    }, 
+    {
+        "name": "Portfolio Website",
+        "body": "This portfolio website to show my experience and skills. Information on this webpage is populated through JSON files, allowing me to easily update and modify content on the site", 
+        "link": "github.com/GavinF09/GavinF09.github.io",
+        "image": "project.jpg"
+    }
+]
