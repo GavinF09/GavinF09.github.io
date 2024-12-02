@@ -37,14 +37,14 @@
     {
         "title": "Others",
         "skills": [
-            "Data Analytics", "Jira"
+            "Data Analytics", "Jira", "Documentation"
         ],
         "show": false
     }, 
     {
         "title": "Work in progress...",
         "skills": [
-            "Ansible", "Cloud"
+            "Ansible", "Cloud", "LaTeX"
         ],
         "show": false
     }
