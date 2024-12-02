@@ -266,6 +266,12 @@ footer {
     font-size: 2.25em;
     margin-bottom: 15px;
 }
+#menu a:link {
+    text-decoration: none;
+}
+#menu a:visited {
+    text-decoration: none;
+}
 #lead-overlay {
     position: absolute;
     height: 100%;
@@ -515,23 +521,44 @@ footer {
 }
 #skills h2 {
     color: #374054;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 #skills ul {
     display: block;
     margin: 0 auto;
     padding: 0;
-    max-width: 800px;
+    /* max-width: 800px; */
 }
 #skills li {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
     color: #374054;
-    background: #e4e4ea;
+    /* background: #e4e4ea; */
+    background: #a0cfee;;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
+}
+
+.accordion {
+    --bs-accordion-btn-color: #e4e4ea;
+	--bs-accordion-btn-bg: #e4e4ea;
+	/* --bs-accordion-active-color: #fff; */
+	--bs-accordion-active-bg: #e4e4ea;
+}
+#skills .accordion-item {
+    text-align: center;
+}
+#skills .accordion-button {
+    text-align: center;
+}
+#skills h3 {
+    font-weight: 200;
+    /* margin: 15px; */
+    color: #374054;
+    text-align: center;
+    width: 100%
 }
 /* ------------------------------- ----- 10. Contact Styles ----- ------------------------------- */
 #contact {

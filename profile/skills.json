@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Programming Languages",
+        "skills": [
+            "Python", "JavaScript", "Go"
+        ],
+        "show": true
+    }, 
+    {
+        "title": "Cybersecurity",
+        "skills": [
+            "Penetration Testing", "Server Hardening", "Networking", "SIEM", "Malware Analysis", "Digital Forensics"
+        ],
+        "show": true
+    }, 
+    {
+        "title": "Systems Administration & Scripting",
+        "skills": [
+            "Linux Administration", "Active Directory", "Windows Server", "Virtualization", "Powershell", "Batch", "Bash"
+        ],
+        "show": true
+    }, 
+    {
+        "title": "Technologies & Tools",
+        "skills": [
+            "Elastic Stack", "VMWare ESXi", "Docker", "Git"
+        ],
+        "show": true
+    }, 
+    {
+        "title": "Web Development",
+        "skills": [
+            "HTML/CSS", "Bootstrap", "ExpressJS", "Flask", "MySQL", "Secure Coding"
+        ],
+        "show": false
+    }, 
+    {
+        "title": "Others",
+        "skills": [
+            "Data Analytics", "Jira"
+        ],
+        "show": false
+    }, 
+    {
+        "title": "Work in progress...",
+        "skills": [
+            "Ansible", "Cloud"
+        ],
+        "show": false
+    }
+]
