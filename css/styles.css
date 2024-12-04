@@ -123,6 +123,8 @@ header.sticky {
 }
 footer {
     padding: 50px 0;
+    background: url(../images/lead-bg.jpg);
+    background-size: cover;
 }
 .copyright {
     padding-top: 20px;
@@ -141,11 +143,13 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 3px solid #b9bfc4;
+    /* border: 3px solid #b9bfc4; */
     text-align: center;
 }
+
 .top i {
-    color: #74808a;
+    /* color: #74808a; */
+    color: #fff;
 }
 .social-footer {
     text-align: right;
@@ -205,7 +209,8 @@ footer {
     background: #3498db;
 }
 .background-alt {
-    background: #f2f2f5;
+    /* background: #f2f2f5; */
+    background: #2b3035;
 }
 /* -------------------------- ----- 4. Lead Styles ----- -------------------------- */
 #lead {
@@ -322,24 +327,24 @@ footer {
 /* --------------------------- ----- 5. About Styles ----- --------------------------- */
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid #dcd9d9;
+    /* border-bottom: 1px solid #dcd9d9; */
 }
-#about h2 {
+/* #about h2 {
     color: #374054;
-}
+} */
 #about p {
-    color: #74808a;
+    /* color: #74808a; */
     margin: 5px;
 }
 /* -------------------------------- ----- 6. Experience Styles ----- -------------------------------- */
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid #dcd9d9;
+    /* border-bottom: 1px solid #dcd9d9; */
 }
-#experience h2 {
+/* #experience h2 {
     color: #374054;
-}
+} */
 #experience-timeline {
     margin: 30px auto 0 auto;
     position: relative;
@@ -369,27 +374,29 @@ footer {
 }
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    /* background: #fff; */
+    /* background: #3498db; */
+    background: #74808a;
+    /* border: 1px solid #e6e6e6; */
     padding: 15px;
-    border-radius: 3px;
+    border-radius: 6px;
     text-align: left;
 }
 .vtimeline-content h3 {
     font-size: 1.5em;
-    font-weight: 300;
-    color: #374054;
+    /* font-weight: 300; */
+    /* color: #374054; */
     display: inline-block;
     margin: 0;
 }
 .vtimeline-content h4 {
     font-size: 1.2em;
     font-weight: 300;
-    color: #7e8890;
+    /* color: #5f666b; */
     margin: 0 0 15px 0;
 }
 .vtimeline-content p {
-    color: #74808a;
+    /* color: #74808a; */
     font-size: 0.9em;
     margin: 0;
 }
@@ -422,45 +429,48 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054;
+    /* color: #374054; */
 }
 /* ------------------------------- ----- 7. Education Styles ----- ------------------------------- */
 #education {
     padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid #dcd9d9;
+    /* border-bottom: 1px solid #dcd9d9; */
     text-align: center;
 }
 #education h2 {
-    color: #374054;
+    /* color: #374054; */
     margin-bottom: 50px;
 }
 .education-block {
     max-width: 1000px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
+    /* border: 1px solid #dcd9d9; */
     text-align: left;
+    background: #74808a;
+    border-radius: 6px;
 }
 .education-block h3 {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #374054;
+    /* color: #374054; */
 }
 .education-block span {
-    color: #74808a;
+    /* color: #74808a; */
     float: right;
 }
 .education-block h4 {
-    color: #74808a;
+    /* color: #74808a; */
     clear: both;
-    font-weight: 500;
+    /* font-weight: 500; */
+    font-weight: 300;
     margin: 0 0 15px 0;
 }
 .education-block p, .education-block ul {
     margin: 0;
-    color: #74808a;
-    font-size: 0.9em;
+    /* color: #74808a; */
+    /* font-size: 0.9em; */
 }
 .education-block ul {
     padding: 0 0 0 15px;
@@ -479,7 +489,7 @@ footer {
 /* ------------------------------- ----- 8. Project Styles ----- ------------------------------- */
 #projects {
     padding: 50px 15px;
-    border-bottom: 1px solid #dcd9d9;
+    /* border-bottom: 1px solid #dcd9d9; */
     text-align: center;
 }
 #projects .container {
@@ -489,7 +499,7 @@ footer {
     /* height: 100vh; */
 }
 #projects h2 {
-    color: #374054;
+    /* color: #374054; */
     margin-bottom: 50px;
 }
 .project {
@@ -499,11 +509,13 @@ footer {
     margin: 0 auto 30px auto;
     /* overflow: hidden; */
     background: #fff;
-    border-radius: 4px;
+    border-radius: 6px;
+    background: #74808a;
 }
 .project-image {
     float: left;
     padding-right: 10px;
+    /* background: #74808a; */
 }
 .project-info {
     position: relative;
@@ -513,12 +525,12 @@ footer {
 }
 .project-info h3 {
     font-size: 1.5em;
-    font-weight: 300;
-    color: #374054;
+    font-weight: 500;
+    /* color: #374054; */
     margin: 0 0 15px 0;
 }
 .project-info p {
-    color: #74808a;
+    /* color: #74808a; */
     margin: 0 0 15px 0;
     font-size: 0.9em;
 }
@@ -531,7 +543,7 @@ footer {
     text-align: center;
 }
 #skills h2 {
-    color: #374054;
+    /* color: #374054; */
     margin-bottom: 15px;
 }
 #skills ul {
@@ -546,17 +558,26 @@ footer {
     padding: 5px 10px;
     color: #374054;
     /* background: #e4e4ea; */
-    background: #a0cfee;;
+    background: #3498db;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
 }
 
-.accordion {
-    --bs-accordion-btn-color: #e4e4ea;
-	--bs-accordion-btn-bg: #e4e4ea;
-	/* --bs-accordion-active-color: #fff; */
-	--bs-accordion-active-bg: #e4e4ea;
+.accordion {    
+    --bs-accordion-border-width: 0;
+    --bs-accordion-border-color: black;
+    /* color of inside */
+    --bs-accordion-bg: ##212529;
+    /* btn text color */
+    --bs-accordion-btn-color: #fff;
+	--bs-accordion-active-color: #fff;
+    /* btn color */
+    --bs-accordion-btn-bg: #74808a;
+	--bs-accordion-active-bg: #74808a;
+    
+    --bs-accordion-btn-focus-box-shadow: none;
+    border-radius: 6px;
 }
 #skills .accordion-item {
     text-align: center;
@@ -567,9 +588,16 @@ footer {
 #skills h3 {
     font-weight: 200;
     /* margin: 15px; */
-    color: #374054;
+    /* color: #374054; */
     text-align: center;
     width: 100%
+}
+/* change icon color */
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 /* ------------------------------- ----- 10. Contact Styles ----- ------------------------------- */
 #contact {
@@ -789,23 +817,29 @@ footer {
 }
 #certifications h3 {
     font-size: 1.5em;
-    font-weight: 300;
-    color: #374054;
+    font-weight: 500;
+    /* color: #374054; */
 }
 
 #certifications {
     padding: 50px 15px;
-    border-bottom: 1px solid #dcd9d9;
+    /* border-bottom: 1px solid #dcd9d9; */
     text-align: center;
 }
-
-/* .carousel-item .card {
-    width: 33%;
-    text-wrap: wrap;
-} */
-#certCarousel span {
-    filter: invert(100%);
+.carousel-item .card-img-top img {
+    background: rgba(0,0,0,0);
 }
+
+.carousel-item .card {
+    background: #74808a;
+}
+/* #certCarousel span {
+    filter: invert(100%);
+} */
+/* .carousel-control-next-icon, .carousel-control-prev-icon {
+    border: 2px solid #444c51;
+    border-radius: 50%;
+} */
 
  /* https://www.codeply.com/p/0CWffz76Q9 */
  @media (max-width: 767px) {
