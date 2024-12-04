@@ -1,7 +1,7 @@
 // $(document.on('ready', (document) => {
 
     let items = document.querySelectorAll('.carousel-inner .carousel-item')
-    console.log(items)
+    // console.log(items)
     
     items.forEach((el) => {
         const minPerSlide = 3

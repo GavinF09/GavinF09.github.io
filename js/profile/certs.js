@@ -4,8 +4,10 @@ $.getJSON(PROFILEPATH + "certs.json", (data) => {
     // swap position of first and second entry, so the first entry will be in the center of the carousel
     [data[0], data[1]] = [data[1], data[0]]
     // first entry need to have active class
-    let firstCert = true
+    // let firstCert = true
+    let certCounter = 0
     data.forEach((cert) => {
+        certCounter += 1
         var certImg = ""
         if (cert.image != null) {
             // make cert that has not been obtained yet blurred
@@ -15,19 +17,26 @@ $.getJSON(PROFILEPATH + "certs.json", (data) => {
                 </div>
             `
         } 
-
         let certEntry = `
-            <div class="carousel-item ${firstCert ? "active" : ""}">
+            <div class="carousel-item ${certCounter == 1 ? "active" : ""}">
                 <div class="card">
                     ${certImg}
                     <div class="card-body">
                         <h3 class="card-title">${cert.name}</h3>
                         <p class="card-text">${cert.obtained != null ? "Obtained " + cert.obtained : "In Progress"}</p>
                     </div>
+                    <div class="card-body"><!-- add space below for carousel indicator --><div>
                 </div>
             </div>
         `
-        firstCert = false
         $(".carousel-inner").append(certEntry)
+        // first button is already on index.html, add more to match no of certs
+        if (certCounter != 1) {
+            $(".carousel-indicators").append(
+                `
+                    <button type="button" data-bs-target="#certCarousel" data-bs-slide-to="${certCounter-1}" aria-label="Slide ${certCounter}"></button>
+                `
+            )
+        }
     })
 })

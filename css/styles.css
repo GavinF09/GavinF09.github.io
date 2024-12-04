@@ -556,19 +556,21 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
+    color: black;
     /* background: #e4e4ea; */
     background: #3498db;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
+    box-shadow: 0 1rem 3rem rgba(white, 0.175);
+    border-radius: 6px;
 }
 
 .accordion {    
     --bs-accordion-border-width: 0;
     --bs-accordion-border-color: black;
     /* color of inside */
-    --bs-accordion-bg: ##212529;
+    --bs-accordion-bg: #2b3035;
     /* btn text color */
     --bs-accordion-btn-color: #fff;
 	--bs-accordion-active-color: #fff;
@@ -828,26 +830,26 @@ footer {
 }
 .carousel-item .card-img-top img {
     background: rgba(0,0,0,0);
+    border: none;
+    width: 300px;
+    height: 300px;
 }
 
 .carousel-item .card {
     background: #74808a;
 }
-/* #certCarousel span {
-    filter: invert(100%);
-} */
-/* .carousel-control-next-icon, .carousel-control-prev-icon {
-    border: 2px solid #444c51;
-    border-radius: 50%;
-} */
 
- /* https://www.codeply.com/p/0CWffz76Q9 */
- @media (max-width: 767px) {
+/* https://www.codeply.com/p/0CWffz76Q9 */
+@media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
         display: none;
     }
     .carousel-inner .carousel-item > div:first-child {
         display: block;
+    }
+    .carousel-item .card-img-top img {
+        height: 300px;
+        width: auto;
     }
 }
 
@@ -861,11 +863,7 @@ footer {
 @media (min-width: 768px) {
     .carousel-item .card-img-top img {
         max-height: 25vh;
-        height: auto;
-        width: 300px;
-        height: 300px;
         object-fit: contain;
-        border: none;
     }
     
     .carousel-inner .carousel-item-end.active,
