@@ -23,7 +23,7 @@
     {
         "title": "Technologies & Tools",
         "skills": [
-            "Elastic Stack", "VMWare ESXi", "Docker", "Git"
+            "Elastic Stack", "VMWare ESXi", "Kali Linux", "Docker", "Git"
         ],
         "show": true
     }, 
@@ -37,15 +37,13 @@
     {
         "title": "Others",
         "skills": [
-            "Data Analytics", "Jira", "Documentation"
-        ],
-        "show": false
+            "Project Management", "Data Analytics", "Jira", "Documentation"
+        ]
     }, 
     {
         "title": "Work in progress...",
         "skills": [
-            "Ansible", "Cloud", "LaTeX"
-        ],
-        "show": false
+            "Ansible", "Cloud"
+        ]
     }
 ]

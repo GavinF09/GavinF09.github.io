@@ -13,7 +13,7 @@ $.getJSON(PROFILEPATH + "skills.json", (data) => {
                 <div id="skills-panel-${categoryCounter}" class="accordion-collapse collapse ${category.show ? "show" : ""}">
                     <div class="accordion-body">
                         <ul>
-                            ${"<ul><li>" + category.skills.join("</li><li>") + "</li></ul>"}
+                            ${'<ul><li class="shadow-large">' + category.skills.join('</li><li class="shadow-large">') + '</li></ul>'}
                         </ul>                    
                     </div>
                 </div>

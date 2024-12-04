@@ -329,7 +329,7 @@ footer {
 }
 #about p {
     color: #74808a;
-    margin: 0;
+    margin: 5px;
 }
 /* -------------------------------- ----- 6. Experience Styles ----- -------------------------------- */
 #experience {
@@ -435,7 +435,7 @@ footer {
     margin-bottom: 50px;
 }
 .education-block {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
@@ -464,6 +464,17 @@ footer {
 }
 .education-block ul {
     padding: 0 0 0 15px;
+}
+
+.education-block img {
+    /* float: left; */
+    margin: 15px;
+    height: auto;
+    max-width: 250px;
+    /* flex: 30%; */
+}
+.education-body {
+    margin: 10px;
 }
 /* ------------------------------- ----- 8. Project Styles ----- ------------------------------- */
 #projects {
