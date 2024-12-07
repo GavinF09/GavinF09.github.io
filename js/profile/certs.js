@@ -9,6 +9,7 @@ $.getJSON(PROFILEPATH + "certs.json", (data) => {
     data.forEach((cert) => {
         certCounter += 1
         var certImg = ""
+        var certExpiry = "&nbsp; " // invisible character to make it take up space 
         if (cert.image != null) {
             // make cert that has not been obtained yet blurred
             certImg = `
@@ -17,13 +18,23 @@ $.getJSON(PROFILEPATH + "certs.json", (data) => {
                 </div>
             `
         } 
+        if (cert.expiry != null) {
+            // todo change between expires and expired
+            certExpiry = `
+                <p>${"Expires " + cert.expiry }</p>
+            `
+        }
+
         let certEntry = `
             <div class="carousel-item ${certCounter == 1 ? "active" : ""}">
                 <div class="card">
                     ${certImg}
                     <div class="card-body">
                         <h3 class="card-title">${cert.name}</h3>
-                        <p class="card-text">${cert.obtained != null ? "Obtained " + cert.obtained : "In Progress"}</p>
+                        <div class="card-text">
+                            <p>${cert.obtained != null ? "Obtained " + cert.obtained : "In Progress"}</p>
+                            <p>${certExpiry}</p>
+                        </div>
                     </div>
                     <div class="card-body"><!-- add space below for carousel indicator --><div>
                 </div>

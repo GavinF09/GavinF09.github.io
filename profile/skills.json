@@ -9,7 +9,7 @@
     {
         "title": "Cybersecurity",
         "skills": [
-            "Penetration Testing", "Server Hardening", "Networking", "SIEM", "Malware Analysis", "Digital Forensics"
+            "Penetration Testing", "Server Hardening", "Networking", "SIEM", "Cryptography", "Malware Analysis", "Digital Forensics"
         ],
         "show": true
     }, 
@@ -23,7 +23,7 @@
     {
         "title": "Technologies & Tools",
         "skills": [
-            "Elastic Stack", "VMWare ESXi", "Kali Linux", "Docker", "Git"
+            "Elastic Stack", "VMWare vSphere", "Kali Linux", "Docker", "Git"
         ],
         "show": true
     }, 
@@ -37,7 +37,7 @@
     {
         "title": "Others",
         "skills": [
-            "Project Management", "Data Analytics", "Jira", "Documentation"
+            "Project Management", "Data Analytics", "Documentation", "Confluence"
         ]
     }, 
     {

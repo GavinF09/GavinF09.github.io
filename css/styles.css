@@ -506,7 +506,7 @@ footer {
     position: relative;
     /* max-width: 900px; */
     width: 100%;
-    margin: 0 auto 30px auto;
+    /* margin: 0 auto 30px auto; */
     /* overflow: hidden; */
     background: #fff;
     border-radius: 6px;
@@ -514,8 +514,11 @@ footer {
 }
 .project-image {
     float: left;
-    padding-right: 10px;
+    padding: 10px;
     /* background: #74808a; */
+}
+.project-image img {
+    max-width: 200px;
 }
 .project-info {
     position: relative;
@@ -533,6 +536,10 @@ footer {
     /* color: #74808a; */
     margin: 0 0 15px 0;
     font-size: 0.9em;
+}
+.project-info a {
+    background: #3498db;
+    color: black;
 }
 #more-projects {
     display: none;
@@ -837,6 +844,10 @@ footer {
 
 .carousel-item .card {
     background: #74808a;
+}
+.carousel-item p {
+    margin-bottom: 2px;
+    min-width: 100%;
 }
 
 /* https://www.codeply.com/p/0CWffz76Q9 */

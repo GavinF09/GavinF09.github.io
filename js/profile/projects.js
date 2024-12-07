@@ -12,9 +12,9 @@ $.getJSON(PROFILEPATH + "projects.json", (data) => {
             `
         } 
         if (project.link != null) {
-            projectLink = `<a href="${project.link}">View Project</a>`
-        }
-
+            projectLink = `<a href="${project.link}" class="btn" target="_blank">View Project</a>`
+            // projectLink = `<button type="button" class="btn">View Project</button>`
+        } 
         let projectEntry = `
             <div class="project shadow-large">
                 ${projectImg}
