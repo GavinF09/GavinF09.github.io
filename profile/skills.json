@@ -9,21 +9,21 @@
     {
         "title": "Cybersecurity",
         "skills": [
-            "Penetration Testing", "Server Hardening", "Networking", "SIEM", "Cryptography", "Malware Analysis", "Digital Forensics"
+            "Penetration Testing", "Server Hardening", "SIEM", "PKI", "Malware Analysis", "Digital Forensics"
         ],
         "show": true
     }, 
     {
         "title": "Systems Administration & Scripting",
         "skills": [
-            "Linux Administration", "Active Directory", "Windows Server", "Virtualization", "Powershell", "Batch", "Bash"
+            "Linux Administration", "Active Directory", "Windows Server", "Virtualization", "Networking", "Powershell", "Batch", "Bash"
         ],
         "show": true
     }, 
     {
         "title": "Technologies & Tools",
         "skills": [
-            "Elastic Stack", "VMWare vSphere", "Kali Linux", "Docker", "Git"
+            "Elastic Stack", "Kali Linux", "Git", "VMWare vSphere", "Docker"
         ],
         "show": true
     }, 
@@ -32,12 +32,12 @@
         "skills": [
             "HTML/CSS", "Bootstrap", "ExpressJS", "Flask", "MySQL", "Secure Coding"
         ],
-        "show": false
+        "show": true
     }, 
     {
         "title": "Others",
         "skills": [
-            "Project Management", "Data Analytics", "Documentation", "Confluence"
+            "Project Management", "Data Analytics", "Documentation"
         ]
     }, 
     {

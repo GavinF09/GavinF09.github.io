@@ -393,12 +393,14 @@ footer {
     font-size: 1.2em;
     font-weight: 300;
     /* color: #5f666b; */
-    margin: 0 0 15px 0;
+    /* margin: 0 0 15px 0; */
+    margin: 0;
 }
 .vtimeline-content p {
     /* color: #74808a; */
     font-size: 0.9em;
     margin: 0;
+    margin-top: 15px;
 }
 .vtimeline-point {
     position: relative;
