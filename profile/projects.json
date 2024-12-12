@@ -12,9 +12,9 @@
         "image": null
     },
     {
-        "name": "RenderCV: Split YAML",
+        "name": "RenderCV-YAML-Merger",
         "body": "Scripts used to set up RenderCV and render the resume with content stored in seperate YAML files.", 
-        "link": "https://github.com/GavinF09/RenderCV-Split-YAML",
+        "link": "https://github.com/GavinF09/RenderCV-YAML-Merger",
         "image": null
     },
     {
