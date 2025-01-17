@@ -1,9 +1,9 @@
 [
     {
-        "name": "Automated Pentesting Tool (Bamboo)",
+        "name": "Automated Pentesting Tool",
         "body": "Developed Bamboo, a custom Command and Control (C2) framework focused on privilege escalation and post-exploitation. Researched and implemented payload execution, post-exploitation, and evasion techniques on the C2 agent using Go. Tested against Elastic Stack's security features.", 
         "link": null,
-        "image": "bamboo_icon.png"
+        "image": null
     }, 
     {
         "name": "Portfolio Website",
