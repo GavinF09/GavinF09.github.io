@@ -9,7 +9,8 @@ $.getJSON(PROFILEPATH + "certs.json", (data) => {
     data.forEach((cert) => {
         certCounter += 1
         var certImg = ""
-        var certExpiry = "&nbsp; " // invisible character to make it take up space 
+        // var certExpiry = "&nbsp; " // invisible character to make it take up space 
+        var certExpiry = ""
         if (cert.image != null) {
             // make cert that has not been obtained yet blurred
             certImg = `
@@ -18,12 +19,12 @@ $.getJSON(PROFILEPATH + "certs.json", (data) => {
                 </div>
             `
         } 
-        if (cert.expiry != null) {
-            // todo change between expires and expired
-            certExpiry = `
-                <p>${"Expires " + cert.expiry }</p>
-            `
-        }
+        // if (cert.expiry != null) {
+        //     // todo change between expires and expired
+        //     certExpiry = `
+        //         <p>${"Expires " + cert.expiry }</p>
+        //     `
+        // }
 
         let certEntry = `
             <div class="carousel-item ${certCounter == 1 ? "active" : ""}">
